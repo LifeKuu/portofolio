@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pendaftaran</title>
+    <h2>Form Pendaftaran</h2>
+</head>
+<body>
+    <fieldset>
+        <label for="idusername">Username :
+            <input type="text" id="idusername" name="username">
+        </label>
+        <br><br>
+
+        <label for="idpassword">Password : 
+            <input type="password" id="idpassword" name="password">
+        </label><br><br>
+
+        <label for="idlahir">Tanggal Lahir :
+            <input type="date" id="idlahir" name="date">
+        </label><br><br>
+
+        <label for="idusia">Usia :
+            <input type="number" id="idusia" name="usia">
+        </label><br><br>
+
+        <label for="idemail">Email :
+            <input type="email" id="idemail" name="email">
+        </label><br><br>
+
+        <label for="idgender">Jenis Kelamin :
+            <input type="radio" id="idgender" name="JenisKelamin" value="Laki-Laki">Laki - Laki
+            <input type="radio" id="idgender" name="JenisKelamin" value="Perempuan">Perempuan <br><br>
+        </label>
+
+        <label for="idasal">Asal :
+            <select name="asal" id="idasal">
+                <option value="Kota Bekasi">Kota Bekasi</option>
+                <option value="Jakarta">Jakarta</option>
+                <option value="Seoul">Seoul</option>
+            </select>
+        </label><br><br>
+
+        <label for="idhoby">Hoby <br>
+            <input type="checkbox">Olahraga <br>
+            <input type="checkbox">Membaca <br>
+            <input type="checkbox">Menyanyi <br>
+            <input type="checkbox">Melukis <br>
+            <input type="checkbox">Makan <br>
+        </label><br>
+
+        <label for="idfoto">Upload Foto
+            <input type="file" id="idfoto" name="pasfoto">
+        </label><br><br>
+
+        Note : <br>
+        <textarea name="deskripsi" id="" rows="10" cols="50"></textarea>
+    </fieldset>
+</body>
+</html>
